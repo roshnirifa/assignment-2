@@ -149,6 +149,28 @@ header, main{
     margin-top: 30px;
  
 }
+/* footer styles */
+footer{
+    background-color: #0A0826;
+}
+.footer-description{
+    text-align: center;
+    padding: 40px;
+    color: white;
+}
+.footer-description p{
+    font-size: 14px;
+}
+.icons i{
+    font-size: 20px;
+    margin-right:20px;
+    border-radius: 10px;
+    background-color: blue;
+    width: 21px;
+    border-radius: 19px;
+    padding: 6px;
+}
+
  
 
 
