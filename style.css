@@ -4,8 +4,9 @@
 /* common styles */
 body{
     font-family: 'Inter', sans-serif;
-
-
+}
+main{
+   
 }
 
 /* nav styles */
@@ -38,7 +39,7 @@ nav ul li a{
     
 }
 /* header style */
-header{
+header, main{
     font-family: 'Poppins', sans-serif;
 }
 .your-journey{
@@ -64,6 +65,7 @@ header{
 
 .header-button{
     background-color: #e67e22;
+    background-color: #e67e22;
     padding: 10px;
     color: #fff;
     width: 182px;
@@ -82,5 +84,72 @@ header{
     transform: scale(1.2);
     transition: transform 2s;
 }
+/* collections style */
+.container{
+    padding: 100px;
+}
+
+ .collection-title{
+    text-align: center;
+    color: #3A3A3A;
+    font-size: 28px;
+    margin-bottom: 50px;
+}
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    align-items: center;
+    padding-left: 40px;
+}
+.collections-item{
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 40px ;
+    border-radius: 5px;
+    width: 329px;
+
+}
+.collections-item .items-img{
+    text-align: center;
+    padding-top: 15px;
+}
+.collections-item .items-info{
+    padding-left: 18px;
+}
+.collections-item .items-info .price{
+    font-size: 25px;
+    color: #3A3A3A;
+    margin-top: -14px;
+    
+}
+.ratings{
+    color: #FB8200;
+    margin-top: -14px;
+   
+}
+.ratings span{
+    margin-left: 20px;
+}
+.items-discriptios{
+    color: #787885;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.collection-button{
+    background-color: #fff;
+    padding: 10px;
+    width: 182px;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-top: 25px;
+    color:  #e67e22;
+    float: right;
+    margin-top: 30px;
+ 
+}
+ 
+
 
 
