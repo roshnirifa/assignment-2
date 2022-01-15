@@ -4,18 +4,18 @@
 /* common styles */
 body{
     font-family: 'Inter', sans-serif;
+    padding: 0;
+    margin: 0;
 }
-main{
-   
+main, footer{
+    display: none;
 }
-
 /* nav styles */
 nav{
     display: flex;
     justify-content: space-between;
     margin: 40px;
     align-items: center;
-
 }
 
 .brand-name{
@@ -57,10 +57,8 @@ header, main{
     margin-right: 30px;
     margin-left: 50px;
 }
-.journey .header-name{
-   
-    font-size: 30px;
-    line-height: 24px;
+.journey h1{
+    font-size: 40px;
 }
 
 .header-button{
@@ -149,6 +147,8 @@ header, main{
     margin-top: 30px;
  
 }
+
+
 /* footer styles */
 footer{
     background-color: #0A0826;
@@ -171,7 +171,46 @@ footer{
     padding: 6px;
 }
 
- 
+/* responsive for mobile */
+
+@media only screen and (max-width: 688px) {
+    nav{
+        text-align: center;
+        display: inherit;
+    }
+    nav ul{
+       display: none;
+    }
+    nav .brand-name{
+        color: #FB8200;
+        font-size: 35px;
+    }
+    /* header */
+    
+    .your-journey{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-row-gap: 30px;
+    }
+    .journey{
+        flex-direction: column;
+        text-align: center;
+        width: 70%;
+    }
+    .header-img{
+        width: 70%;   
+        text-align: center;
+    }
+    .photo{
+        width: 90%;
+    }
+    
+    
+   
+    
+
+}
+
 
 
 
