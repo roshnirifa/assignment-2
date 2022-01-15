@@ -145,6 +145,25 @@ header, main{
     margin-top: 30px;
     margin-right: 20px;
 }
+/* contact styles */
+.contact-us{
+    text-align: center;
+}
+.contact input{
+    margin-bottom: 20px;
+    width: 50%;
+    padding: 10px;
+}
+.contact-button{
+    background-color: #e67e22;
+    background-color: #e67e22;
+    padding: 10px;
+    color: #fff;
+    width: 182px;
+    font-size: 15px;
+    border-radius: 20px;
+    margin-top: 25px;
+}
 
 
 /* footer styles */
@@ -222,8 +241,7 @@ footer{
         justify-items: center;
         
     }
-    .collection-button{
-        
+     
        
     }  
     footer{
