@@ -226,9 +226,7 @@ footer{
      
        
     }  
-    footer{
-        margin-top:150px
-    } 
+     
 }
 
 /* responsive for tab */
@@ -273,9 +271,7 @@ footer{
         justify-content: center;
         
     }
-    footer{
-        margin-top:150px
-    }
+    
 }
 /* responsive for desktop */
 @media only screen and (min-width: 992px)  and (max-width:1326px){ 
