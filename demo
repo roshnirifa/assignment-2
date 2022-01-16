@@ -1,0 +1,58 @@
+
+/* responsive for tab */
+@media only screen and (min-width: 768px)  and (max-width:992px){ 
+    nav{
+        text-align: center;
+        display: inherit;
+       
+    }
+    nav ul{
+       display: none;
+    }
+    nav .brand-name{
+        color: #FB8200;
+        font-size: 35px;
+    }
+   
+    /* header */
+    
+    .your-journey{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+      }
+      .journey{
+         
+          text-align: center;
+          width: 70%;
+      }
+      .header-img{
+          width: 70%;   
+          text-align: center;
+      }
+      .photo{
+          width: 90%;
+      }
+     
+      .collections{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        
+    }
+    footer{
+        margin-top:150px;
+        margin: 0 auto;
+    }
+    
+}
+/* responsive for desktop */
+@media only screen and (min-width: 992px)  and (max-width:1326px){ 
+    .collections{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        justify-items: center;
+        justify-content: center;
+        
+    }
+}

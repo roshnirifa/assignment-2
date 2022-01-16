@@ -145,6 +145,31 @@ header, main{
     margin-top: 30px;
     margin-right: 20px;
 }
+/* contact-us */
+.contacts{
+    margin-top: 90px;
+    text-align: center;
+}
+.contact-us{
+   
+   
+}
+.contact input{
+    margin-bottom: 20px;
+    width: 50%;
+    padding: 10px;
+}
+.contact-button{
+    background-color: #e67e22;
+    background-color: #e67e22;
+    padding: 10px;
+    color: #fff;
+    width: 182px;
+    font-size: 15px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+   
+}
 
 
 
@@ -172,7 +197,7 @@ footer{
 
 /* responsive for mobile */
 
-@media only screen and (max-width: 768px) {
+ @media only screen and (max-width: 768px) {
     nav{
         text-align: center;
         display: inherit;
@@ -223,13 +248,14 @@ footer{
         justify-items: center;
         
     }
-     
+    
+     footer{
+         margin-top:150px;
+     }
        
     }  
-     
-}
 
-/* responsive for tab */
+    /* responsive for tab */
 @media only screen and (min-width: 768px)  and (max-width:992px){ 
     nav{
         text-align: center;
@@ -248,13 +274,11 @@ footer{
     
     .your-journey{
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-row-gap: 30px;
-        padding: 0;
-        margin: 0;
+        grid-template-columns: repeat(2, 1fr);
+        
       }
       .journey{
-          flex-direction: column;
+         
           text-align: center;
           width: 70%;
       }
@@ -265,15 +289,20 @@ footer{
       .photo{
           width: 90%;
       }
+     
       .collections{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        justify-content: center;
+        justify-items: center;
         
+    }
+    footer{
+        margin-top:150px;
+        margin: 0 auto;
     }
     
 }
-/* responsive for desktop */
+
 @media only screen and (min-width: 992px)  and (max-width:1326px){ 
     .collections{
         display: grid;
